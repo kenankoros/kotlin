@@ -1,25 +1,25 @@
 
 //pareent class
-class  Shapes{
+open class  Shapes{
     open fun draw(){
         println("rawind shape function")
     }
 
 }
 //child class
-class circle:Shapes{
+class circle:Shapes(){
     override fun draw(){
         println("Drawing a circle")
     }
 
 }
-class triangle:Shapes{
+class triangle:Shapes(){
     override fun draw(){
         println("draw a triangle")
     }
 
 }
-class square:Shapes{
+class square:Shapes(){
     override fun draw(){
         println("drawing a square")
     }
